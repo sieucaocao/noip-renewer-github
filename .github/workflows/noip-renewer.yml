@@ -402,3 +402,12 @@ jobs:
         username30="${{ secrets.NO_IP_USERNAME_30 }}"
         password30="${{ secrets.NO_IP_PASSWORD_30 }}"
         totp_key30="${{ secrets.NO_IP_TOTP_KEY_30 }}"
+        
+        if [ -n "$username30" ] && [ -n "$password30" ] && [ -n "$totp_key30" ]; then
+          echo "Processing account 30: $username30"
+          docker run --rm \
+            --env NO_IP_USERNAME="$username30" \
+            --env NO_IP_PASSWORD="$password30" \
+            --env NO_IP_TOTP_KEY="$totp_key30" \
+            simaofsilva/noip-renewer:latest
+        fi

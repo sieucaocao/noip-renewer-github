@@ -32,7 +32,7 @@ jobs:
             --env NO_IP_USERNAME="$username1" \
             --env NO_IP_PASSWORD="$password1" \
             --env NO_IP_TOTP_KEY="$totp_key1" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username2="${{ secrets.NO_IP_USERNAME_2 }}"
@@ -45,7 +45,7 @@ jobs:
             --env NO_IP_USERNAME="$username2" \
             --env NO_IP_PASSWORD="$password2" \
             --env NO_IP_TOTP_KEY="$totp_key2" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username3="${{ secrets.NO_IP_USERNAME_3 }}"
@@ -58,7 +58,7 @@ jobs:
             --env NO_IP_USERNAME="$username3" \
             --env NO_IP_PASSWORD="$password3" \
             --env NO_IP_TOTP_KEY="$totp_key3" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username4="${{ secrets.NO_IP_USERNAME_4 }}"
@@ -71,7 +71,7 @@ jobs:
             --env NO_IP_USERNAME="$username4" \
             --env NO_IP_PASSWORD="$password4" \
             --env NO_IP_TOTP_KEY="$totp_key4" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username5="${{ secrets.NO_IP_USERNAME_5 }}"
@@ -84,7 +84,7 @@ jobs:
             --env NO_IP_USERNAME="$username5" \
             --env NO_IP_PASSWORD="$password5" \
             --env NO_IP_TOTP_KEY="$totp_key5" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username6="${{ secrets.NO_IP_USERNAME_6 }}"
@@ -97,7 +97,7 @@ jobs:
             --env NO_IP_USERNAME="$username6" \
             --env NO_IP_PASSWORD="$password6" \
             --env NO_IP_TOTP_KEY="$totp_key6" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username7="${{ secrets.NO_IP_USERNAME_7 }}"
@@ -110,7 +110,7 @@ jobs:
             --env NO_IP_USERNAME="$username7" \
             --env NO_IP_PASSWORD="$password7" \
             --env NO_IP_TOTP_KEY="$totp_key7" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username8="${{ secrets.NO_IP_USERNAME_8 }}"
@@ -123,7 +123,7 @@ jobs:
             --env NO_IP_USERNAME="$username8" \
             --env NO_IP_PASSWORD="$password8" \
             --env NO_IP_TOTP_KEY="$totp_key8" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username9="${{ secrets.NO_IP_USERNAME_9 }}"
@@ -136,7 +136,7 @@ jobs:
             --env NO_IP_USERNAME="$username9" \
             --env NO_IP_PASSWORD="$password9" \
             --env NO_IP_TOTP_KEY="$totp_key9" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username10="${{ secrets.NO_IP_USERNAME_10 }}"
@@ -149,7 +149,7 @@ jobs:
             --env NO_IP_USERNAME="$username10" \
             --env NO_IP_PASSWORD="$password10" \
             --env NO_IP_TOTP_KEY="$totp_key10" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username11="${{ secrets.NO_IP_USERNAME_11 }}"
@@ -162,7 +162,7 @@ jobs:
             --env NO_IP_USERNAME="$username11" \
             --env NO_IP_PASSWORD="$password11" \
             --env NO_IP_TOTP_KEY="$totp_key11" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username12="${{ secrets.NO_IP_USERNAME_12 }}"
@@ -175,7 +175,7 @@ jobs:
             --env NO_IP_USERNAME="$username12" \
             --env NO_IP_PASSWORD="$password12" \
             --env NO_IP_TOTP_KEY="$totp_key12" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username13="${{ secrets.NO_IP_USERNAME_13 }}"
@@ -188,7 +188,7 @@ jobs:
             --env NO_IP_USERNAME="$username13" \
             --env NO_IP_PASSWORD="$password13" \
             --env NO_IP_TOTP_KEY="$totp_key13" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username14="${{ secrets.NO_IP_USERNAME_14 }}"
@@ -201,7 +201,7 @@ jobs:
             --env NO_IP_USERNAME="$username14" \
             --env NO_IP_PASSWORD="$password14" \
             --env NO_IP_TOTP_KEY="$totp_key14" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username15="${{ secrets.NO_IP_USERNAME_15 }}"
@@ -214,7 +214,7 @@ jobs:
             --env NO_IP_USERNAME="$username15" \
             --env NO_IP_PASSWORD="$password15" \
             --env NO_IP_TOTP_KEY="$totp_key15" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username16="${{ secrets.NO_IP_USERNAME_16 }}"
@@ -227,7 +227,7 @@ jobs:
             --env NO_IP_USERNAME="$username16" \
             --env NO_IP_PASSWORD="$password16" \
             --env NO_IP_TOTP_KEY="$totp_key16" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username17="${{ secrets.NO_IP_USERNAME_17 }}"
@@ -240,7 +240,7 @@ jobs:
             --env NO_IP_USERNAME="$username17" \
             --env NO_IP_PASSWORD="$password17" \
             --env NO_IP_TOTP_KEY="$totp_key17" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username18="${{ secrets.NO_IP_USERNAME_18 }}"
@@ -253,7 +253,7 @@ jobs:
             --env NO_IP_USERNAME="$username18" \
             --env NO_IP_PASSWORD="$password18" \
             --env NO_IP_TOTP_KEY="$totp_key18" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username19="${{ secrets.NO_IP_USERNAME_19 }}"
@@ -266,7 +266,7 @@ jobs:
             --env NO_IP_USERNAME="$username19" \
             --env NO_IP_PASSWORD="$password19" \
             --env NO_IP_TOTP_KEY="$totp_key19" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username20="${{ secrets.NO_IP_USERNAME_20 }}"
@@ -279,7 +279,7 @@ jobs:
             --env NO_IP_USERNAME="$username20" \
             --env NO_IP_PASSWORD="$password20" \
             --env NO_IP_TOTP_KEY="$totp_key20" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username21="${{ secrets.NO_IP_USERNAME_21 }}"
@@ -292,7 +292,7 @@ jobs:
             --env NO_IP_USERNAME="$username21" \
             --env NO_IP_PASSWORD="$password21" \
             --env NO_IP_TOTP_KEY="$totp_key21" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username22="${{ secrets.NO_IP_USERNAME_22 }}"
@@ -305,7 +305,7 @@ jobs:
             --env NO_IP_USERNAME="$username22" \
             --env NO_IP_PASSWORD="$password22" \
             --env NO_IP_TOTP_KEY="$totp_key22" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username23="${{ secrets.NO_IP_USERNAME_23 }}"
@@ -318,7 +318,7 @@ jobs:
             --env NO_IP_USERNAME="$username23" \
             --env NO_IP_PASSWORD="$password23" \
             --env NO_IP_TOTP_KEY="$totp_key23" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username24="${{ secrets.NO_IP_USERNAME_24 }}"
@@ -331,7 +331,7 @@ jobs:
             --env NO_IP_USERNAME="$username24" \
             --env NO_IP_PASSWORD="$password24" \
             --env NO_IP_TOTP_KEY="$totp_key24" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username25="${{ secrets.NO_IP_USERNAME_25 }}"
@@ -344,7 +344,7 @@ jobs:
             --env NO_IP_USERNAME="$username25" \
             --env NO_IP_PASSWORD="$password25" \
             --env NO_IP_TOTP_KEY="$totp_key25" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username26="${{ secrets.NO_IP_USERNAME_26 }}"
@@ -357,7 +357,7 @@ jobs:
             --env NO_IP_USERNAME="$username26" \
             --env NO_IP_PASSWORD="$password26" \
             --env NO_IP_TOTP_KEY="$totp_key26" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username27="${{ secrets.NO_IP_USERNAME_27 }}"
@@ -370,7 +370,7 @@ jobs:
             --env NO_IP_USERNAME="$username27" \
             --env NO_IP_PASSWORD="$password27" \
             --env NO_IP_TOTP_KEY="$totp_key27" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username28="${{ secrets.NO_IP_USERNAME_28 }}"
@@ -383,7 +383,7 @@ jobs:
             --env NO_IP_USERNAME="$username28" \
             --env NO_IP_PASSWORD="$password28" \
             --env NO_IP_TOTP_KEY="$totp_key28" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username29="${{ secrets.NO_IP_USERNAME_29 }}"
@@ -396,18 +396,9 @@ jobs:
             --env NO_IP_USERNAME="$username29" \
             --env NO_IP_PASSWORD="$password29" \
             --env NO_IP_TOTP_KEY="$totp_key29" \
-            simaofsilva/noip-renewer:latest
+            simaofsilva/noip-renewer:pr-583-alpine
         fi
         
         username30="${{ secrets.NO_IP_USERNAME_30 }}"
         password30="${{ secrets.NO_IP_PASSWORD_30 }}"
         totp_key30="${{ secrets.NO_IP_TOTP_KEY_30 }}"
-        
-        if [ -n "$username30" ] && [ -n "$password30" ] && [ -n "$totp_key30" ]; then
-          echo "Processing account 30: $username30"
-          docker run --rm \
-            --env NO_IP_USERNAME="$username30" \
-            --env NO_IP_PASSWORD="$password30" \
-            --env NO_IP_TOTP_KEY="$totp_key30" \
-            simaofsilva/noip-renewer:latest
-        fi

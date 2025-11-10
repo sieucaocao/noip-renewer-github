@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v5
 
     - name: Set up Docker
       uses: docker/setup-buildx-action@v2
@@ -411,3 +411,11 @@ jobs:
             --env NO_IP_TOTP_KEY="$totp_key30" \
             simaofsilva/noip-renewer:pr-583-alpine
         fi
+
+  keepalive:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: liskin/gh-workflow-keepalive@v1
